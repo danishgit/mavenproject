@@ -17,6 +17,7 @@ public class TestCase1 {
 	  a.moveToElement(driver.findElement(By.linkText("Furniture "))).perform();
 	  a.moveToElement(driver.findElement(By.linkText(" Vanities & Desks "))).perform();
 	  driver.findElement(By.linkText(" Vanities & Desks ")).click();
+	  System.out.println("Thi is for testing");
   }
   @BeforeClass
   public void beforeClass() {
